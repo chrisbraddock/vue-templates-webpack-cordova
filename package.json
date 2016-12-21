@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
+    "ios": "cordova emulate ios",
+    "ios:device": "cordova run ios --device",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
@@ -44,6 +46,7 @@
     "ora": "^0.3.0",
     "shelljs": "^0.7.4",
     "url-loader": "^0.5.7",
+    "vue-cordova": "^0.1.2",
     "vue-loader": "^10.0.0",
     "vue-style-loader": "^1.0.0",
     "vue-template-compiler": "^2.1.0",
